@@ -14,7 +14,7 @@ void draw(){
         stroke(#ffffff);
         point(i,j);
       } else {
-        stroke(255*n/(700.0)-255);
+        stroke(#000000);
         point(i,j);
       }
       
