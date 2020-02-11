@@ -1,4 +1,4 @@
-int MAX_ITERATE = 40;
+int MAX_ITERATE = 1000;
 void setup(){
   size(700,700);
   noLoop();
