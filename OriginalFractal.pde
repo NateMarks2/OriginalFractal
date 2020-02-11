@@ -10,7 +10,6 @@ void draw(){
       float scaledX =  3.5*i/(700.0)-2.5;
       float scaledY =  2*j/700.0- 1;
       int n = mandelbrot(new Complex(0,0), new Complex(scaledX,scaledY));
-      println(n);
       if(n == MAX_ITERATE){
         stroke(#ffffff);
         point(i,j);
